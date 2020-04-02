@@ -45,7 +45,7 @@ spec:
         name: wordpress
         env:
         - name: xxx
-          value: xxxxxxxx.cptwrkuk58pf.us-east-1.rds.amazonaws.com
+          value: xxxxxxxx.xxxxxx.us-east-1.rds.amazonaws.com
         - name: xxxxxxx 
           value: xxxxxxx
 #            secretKeyRef:

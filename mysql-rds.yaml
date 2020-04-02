@@ -4,4 +4,4 @@ metadados :
   nome : mysql-service
 especificação :
   tipo : ExternalName
-  externalName : awsdevops.cptwrkuk58pf.us-east-1.rds.amazonaws.com
+  externalName : xxxxxxxxx.xxxxxxxxxxx.us-east-1.rds.amazonaws.com

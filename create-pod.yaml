@@ -1,0 +1,17 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: nfs-pod
+spec:
+  containers:
+    - name: nfs-wordpress
+      image: alpine
+      volumeMounts:
+      - name: nfs-demo
+          mountPath: /mnt/wordpress
+      command: ["/bin/sh"]
+      args: ["-c", "sleep 500000"]
+  volumes:
+  - name: nfs-wordpress
+    persistentVolumeClaim:
+      claimName: nfs-wordpress

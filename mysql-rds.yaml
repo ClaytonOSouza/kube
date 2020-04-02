@@ -1,0 +1,7 @@
+tipo : Serviço
+apiVersion : v1
+metadados :
+  nome : mysql-service
+especificação :
+  tipo : ExternalName
+  externalName : awsdevops.cptwrkuk58pf.us-east-1.rds.amazonaws.com
